@@ -1,0 +1,159 @@
+body {
+    background-image: url("https://static.scientificamerican.com/sciam/cache/file/10CD40F9-60D3-4A62-857BAB6919E8B6CA_source.jpg?w=690&h=930&7C924A53-35A7-4964-8F3B7C4AEC6AEA1B");
+}
+
+.container {
+    height: 90%;
+    width: 90%;
+    margin: auto;
+}
+
+#personal-info {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#personal-info #heading {
+    padding: 20px;
+}
+
+#personal-info img {
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+    
+}
+
+#personal-info .about-me {
+    font-size: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+#personal-info .qoute {
+    font-size: 20px;
+    padding: 40px;
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+
+#personal-info #contacts {
+    font-size: 25px;
+    padding: 20px;
+    display: flex;
+    width: 55%;
+    margin: auto;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+#personal-info #contacts .fa {
+    color: white;
+}
+
+#hobbies {
+    /* background-color: #C2F7E6; */
+    background-image: url('https://st3.depositphotos.com/33294434/35762/i/450/depositphotos_357623312-stock-photo-abstract-digital-background-cosmic-particles.jpg');
+    border-radius: 8px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#hobbies #heading {
+    padding: 20px;
+}
+
+#hobbies p {
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+}
+
+#favorite-links {
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#favorite-links #heading {
+    color: white;
+    padding: 20px;
+}
+
+#favorite-links a {
+    text-decoration: none;
+    color: white;
+    width: 90%;
+}
+
+#favorite-links ul {
+    padding: 40px;
+}
+
+#favorite-links a:hover {
+    font-size: 20px;
+    width: 90%;
+    color: skyblue;
+}
+
+
+nav {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+nav a:hover {
+    font-size: 20px;
+    color: green;
+}
+
+#education {
+    background-color: black;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#education #heading {
+    color: white;
+    
+}
+
+#education table, th, td {
+    color: white;
+    border: 1px solid white;
+    font-size: 20px;
+    margin: auto;
+    padding: 10px;
+}
+
+#date_of_modification {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black url("https://i.gifer.com/758X.gif") no-repeat center center;
+    background-size: 15%;
+    z-index: 99;
+}
