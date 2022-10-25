@@ -1,0 +1,26 @@
+#qoute {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    width: 90%
+}
+
+#color_picker {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 15%;
+    margin-top: 5px;
+}
+
+#color_picker .colors {
+    display: block;
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 20px;
+}
