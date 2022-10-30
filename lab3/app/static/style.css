@@ -1,0 +1,66 @@
+body {
+    background-image: url("https://wallpaper.dog/large/10863063.jpg");
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container:hover {
+    animation: jiggle 0.3s linear;
+  }
+  
+  @keyframes jiggle {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(2deg);}
+    100% {transform: rotate(-2deg)}
+  }
+
+#text {
+    color: white;
+}
+
+#heading {
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 1em 0;
+}
+
+#student_info {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 35%;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+#student_info input {
+    margin: 0.5em 0;
+    border: 2px outset grey;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+#student_info select {
+    margin: 0.5em 0;
+    border: 2px outset grey;
+    border-radius: 12px;
+    padding: 10px;
+}
