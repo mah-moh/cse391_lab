@@ -4,8 +4,8 @@
         <title>Enroll now</title>
         <link rel="stylesheet" href="../static/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
     </head>
     <body>
         <h1 id="heading">CSE391 - Register here for a lab slot</h1  >
@@ -18,7 +18,7 @@
                 </ul>
             </div>
 
-            <form action="" id="student_info">
+            <form action="{{ url_for('index') }}" id="student_info" method="POST">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" placeholder="Enter your name" required>
                 <label for="sid">Student ID</label>
@@ -27,11 +27,9 @@
                 <input type="email" id="email" name="email" placeholder="Enter your email" required>
                 <label for="lab">Select lab slot</label>
                 <select id="lab" name="lab" required>
-                    <option value="1">lab 1</option>
-                    <option value="2">lab 2</option>
-                    <option value="3">lab 3</option>
-                    <option value="4">lab 4</option>
-                    <option value="5">lab 5</option>
+                    {% for lab_options in lab %}
+                        <option id="form-options" value="{{ lab_options.id }}">{{ lab_options.slots }}</option>
+                    {% endfor %}
                 </select>
                 <input type="submit" value="Register">
             </form>

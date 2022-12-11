@@ -64,3 +64,28 @@ body {
     border-radius: 12px;
     padding: 10px;
 }
+
+table {
+    margin: auto;
+    width: 50%;
+    border: 2px outset grey;
+    border-radius: 12px;
+    padding: 10px;
+    color: white;
+}
+
+table td {
+    padding: 10px;
+}
+
+#form-heading {
+    color: white;
+}
+
+#display-form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 35%;
+    padding: 20px;
+}
